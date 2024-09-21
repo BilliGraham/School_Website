@@ -394,5 +394,16 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-# JetBrains Rider
-*.sln.iml
+# JetBrains Rider files
+.idea/
+
+# Ignore Node.js build artefacts (React)
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+# Ignore the build output for frontend projects
+/build
+/coverage
+.DS_Store
